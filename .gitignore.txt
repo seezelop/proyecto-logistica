@@ -1,0 +1,12 @@
+# Excluir archivos de entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Excluir archivos de configuración sensible
+config.py
+.env
+
+# Excluir archivos temporales
+*.tmp
+*.log
