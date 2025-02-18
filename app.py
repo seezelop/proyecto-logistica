@@ -103,7 +103,7 @@ def create_admin():
 # Ejecutar la aplicación
 if __name__ == '__main__':
     with app.app_context():
-        db.create_all()  # Crear la base de datos si no existe
+        db.create_all()  # Crear la base de datos si no existe aun
         create_admin()   # Crear el usuario administrador inicial
 
     app.run(debug=True)
